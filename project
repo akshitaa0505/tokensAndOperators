@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of int: " << sizeof(int) << " bytes";
+    cout << "\nSize of float: " << sizeof(float) << " bytes";
+    cout << "\nSize of double: " << sizeof(double) << " bytes";
+    cout << "\nSize of char: " << sizeof(char) << " byte";
+    
+    int num1,num2;
+    int product;
+    cout << "\nEnter two numbers: ";
+    cin >> num1;
+    cin >> num2;
+    product = (num1*num2);
+
+    cout << "The product = " << product;
+    
+    return 0;
+}
